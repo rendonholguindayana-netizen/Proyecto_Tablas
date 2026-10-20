@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 600%;
+}
+
+body{
+    justify-items: center;
+}
+
+.horario{
+    width: 70%;
+    margin-top: 30px;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: border;
+}
+
+td,th {
+    padding: 10px;
+}
+
+caption{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+thead{
+    background-color: #a38f85;
+    color: #f6f2ea;
+    position: sticky ;
+}
+
+tbody th {
+    background-color: #cdc6c3;
+    font-size: 0.8rem;
+}
+
+.tecnica{
+    background-color: #d4b2a7;
+}
+
+.transversal{
+    background-color: #e7d7c9;
+}
+
+.proyecto{
+    background-color: #bba18ac4;
+}
+
+.libre{
+    background-color: #d3beb9;
+}
+
+.pausa{
+    background-color: #f1e3e3f3;
+    font-style: italic;
+    text-align: center;
+}
+
+.ambiente{
+    display: block;
+    color:#7a8d9b;
+    font-size: 0.7rem;
+}
+
+.tecnica:hover, .transversal:hover, .proyecto:hover {
+    transform: scale(1.07);
+    border: 1px solid #fff;
+}
+
+tfoot{
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: #665045;
+    padding-left: 950px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+a:hover{
+    font-size: 25px
+}
+@media screen and (max-width: 800px){
+    a{
+        padding-left: 250px;
+    }
+}

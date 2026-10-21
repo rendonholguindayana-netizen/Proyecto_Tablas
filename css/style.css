@@ -12,7 +12,7 @@ caption {
 
 th, td {
     padding: 10px 12px;  /* espacio */
-    border-bottom: 1px solid #dde1ea;
+    border-bottom: 1px solid #bba18ac4;  /* borde inferior */
     text-align: left;
 }
 
@@ -21,7 +21,7 @@ thead th {
 }
 
 tbody tr:nth-child(even) {
-    background: #f2e8e1;  /* filas intercaladas */
+    background: #a38f85;  /* filas intercaladas */
 }
 
 tbody tr:hover {
@@ -29,7 +29,7 @@ tbody tr:hover {
 }
 
 .numero {
-    text-align: right;  /* los números */
+    text-align: flex;  /* los números */
 }
 
 .tabla-contenedor {
@@ -49,13 +49,13 @@ section{
 }
 
 table, tr, td, th{
-    border: #a38f85;
+    border: #bba18ac4 1px solid;
 }
 
 a{
     text-decoration: none;
     color: #665045;
-    padding-left: 950px;
+    padding-left: 225px;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 20px;
